@@ -1,0 +1,208 @@
+.container {
+    padding: 0 250px;
+}
+
+.buttonup {
+    width:50px;
+    height:50px;
+    position:fixed;
+    bottom:70px;
+    left:50px;
+    display: block;
+    position: fixed;
+    z-index: 9999;
+    opacity: 0.4;
+}
+
+.buttonup:hover {
+    opacity: 1.0;
+}
+
+.header > ul {
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin: 5px;
+    border-bottom: 1px solid black;
+    padding-inline-start: 0px;
+
+}
+
+.header > ul > li {
+    margin: 32px 0;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+}
+
+.header > ul > li > a {
+    color: black;
+}
+
+
+#name {
+    font-family: Roboto, sans-serif;
+    font-size: 47px;
+}
+
+#occupation {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+}
+
+.main {
+    align-items: flex-end;
+    justify-content: space-between;
+    display: flex;
+    vertical-align: baseline;
+    margin-top: 10px;
+}
+
+#lang {
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    padding-top: 25px;
+}
+
+.photo {
+    margin-top: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+
+#myself {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    border-radius: 10px;
+}
+
+.about {
+    padding-top: 20px;
+    padding-bottom: 100px;
+    margin-top: 10px;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    background-color: #F6F6F6;
+    border-radius: 10px;
+}
+
+#p1, #p2 {
+    font-size: 42px;
+    text-align: center;
+}
+
+#p3 {
+    text-align: center;
+}
+
+.skills {
+    padding-top: 20px;
+    /*padding-bottom: 100px;*/
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    text-align: block;
+}
+
+
+.skllsdescription > div > img {
+    width: 100px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.skllsdescription {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.starsinside > img {
+    width: 21px;
+}
+
+.portfolio {
+    background-color: #F6F6F6;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    font-family: Roboto, sans-serif;
+    font-size: 42px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+.portfolio > p {
+    font-size: 18px;
+}
+
+.portfolio > img {
+    width: 40%;
+}
+
+.services {
+    margin-top: 20px;
+    font-family: Roboto, sans-serif;
+    font-size: 42px;
+    text-align: center;
+}
+
+.services > span {
+    font-size: 25px;
+}
+
+.services > p {
+    font-size: 18px;
+    text-align: left;
+    padding-left: 150px;
+}
+
+
+
+.contacts {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    font-family: Roboto, sans-serif;
+    font-size: 42px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #F6F6F6;
+    border-radius: 10px;
+}
+
+.contacts > p {
+    font-size: 18px;
+}
+
+.contacts > a > img {
+    width: 100px;
+}
+
+
+.footer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1100px) {
+    .container {
+        padding: 0px;
+    }
+    .header > ul {
+        flex-wrap: wrap;
+    }
+    .skllsdescription {
+        flex-wrap: wrap;
+    }
+}
